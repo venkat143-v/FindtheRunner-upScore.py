@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+    arr.sort()
+    c=arr.count(arr[-1])
+    print(arr[-1-c])
